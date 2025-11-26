@@ -139,7 +139,7 @@ Each example demonstrates:
 - React: 3001
 - Next.js: 3005
 - Vanilla JS: 3004
-  - Vue: 3002
-  - Svelte: 3003
-  - Angular: 4200
+- Vue: 3002
+- Svelte: 3003
+- Angular: 4200
 - When running `dev:all`, all examples start in parallel without opening browsers automatically
