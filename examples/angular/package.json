@@ -2,6 +2,12 @@
   "name": "angular-example",
   "version": "1.0.0",
   "private": true,
+  "description": "Angular example demonstrating form-guardian with Angular forms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tishkin/form-guardian-examples"
+  },
+  "author": "Tishkin Yuri <tishkinyura32@gmail.com>",
   "scripts": {
     "ng": "ng",
     "dev": "ng serve --port 4200 --open",
@@ -19,7 +25,7 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
-    "@form-guardian/dom": "^1.0.2",
+    "@form-guardian/dom": "latest",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"

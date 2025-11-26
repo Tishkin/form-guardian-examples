@@ -39,8 +39,8 @@ importers:
         specifier: ^17.0.0
         version: 17.3.12(@angular/common@17.3.12(@angular/core@17.3.12(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2))(@angular/core@17.3.12(rxjs@7.8.2)(zone.js@0.14.10))(@angular/platform-browser@17.3.12(@angular/animations@17.3.12(@angular/core@17.3.12(rxjs@7.8.2)(zone.js@0.14.10)))(@angular/common@17.3.12(@angular/core@17.3.12(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2))(@angular/core@17.3.12(rxjs@7.8.2)(zone.js@0.14.10)))(rxjs@7.8.2)
       '@form-guardian/dom':
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: latest
+        version: 1.0.3
       rxjs:
         specifier: ~7.8.0
         version: 7.8.2
@@ -88,11 +88,11 @@ importers:
   examples/nextjs:
     dependencies:
       '@form-guardian/dom':
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: latest
+        version: 1.0.3
       '@form-guardian/react':
-        specifier: ^1.0.2
-        version: 1.0.2(react@19.2.0)
+        specifier: latest
+        version: 1.0.3(react@19.2.0)
       formik:
         specifier: ^2.4.5
         version: 2.4.9(@types/react@19.2.7)(react@19.2.0)
@@ -128,11 +128,11 @@ importers:
   examples/react:
     dependencies:
       '@form-guardian/dom':
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: latest
+        version: 1.0.3
       '@form-guardian/react':
-        specifier: ^1.0.2
-        version: 1.0.2(react@19.2.0)
+        specifier: latest
+        version: 1.0.3(react@19.2.0)
       formik:
         specifier: ^2.4.5
         version: 2.4.9(@types/react@19.2.7)(react@19.2.0)
@@ -171,8 +171,8 @@ importers:
   examples/svelte:
     dependencies:
       '@form-guardian/dom':
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: latest
+        version: 1.0.3
       svelte:
         specifier: ^4.2.7
         version: 4.2.20
@@ -199,8 +199,8 @@ importers:
   examples/vanilla:
     dependencies:
       '@form-guardian/dom':
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: latest
+        version: 1.0.3
     devDependencies:
       vite:
         specifier: ^5.0.0
@@ -209,8 +209,8 @@ importers:
   examples/vue:
     dependencies:
       '@form-guardian/dom':
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: latest
+        version: 1.0.3
       vue:
         specifier: ^3.3.4
         version: 3.5.25(typescript@5.9.3)
@@ -1193,19 +1193,19 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@form-guardian/core@1.0.2':
-    resolution: {integrity: sha512-Vh+t/KfgnrsIpiNLiv0WTqDYFGWuIzNLZLrVXSwQTZZL/OAVTRTEqW0EHEji/3i6eGPdD1J6BBKEyrBsv7qztA==}
+  '@form-guardian/core@1.0.3':
+    resolution: {integrity: sha512-kvEm5YGHrPevzQ/KzaiXMEd9qZ9WHRzua2gAwCJnu8Rz/MvhbEXALttwBw061R15RpHdyTt5bW6ugXwpO2LeAg==}
 
-  '@form-guardian/dom@1.0.2':
-    resolution: {integrity: sha512-m7FGBR+R1sAqSOQy6/1VokS8GJ0K8tjvGQWqbURADkXgaJ37AhlagFYuDV5nuXq1+xTgG5AqCbS2iXMc32B9FQ==}
+  '@form-guardian/dom@1.0.3':
+    resolution: {integrity: sha512-kiaQeVi/GyuTMvsBtwVnUyMup3JJyiF28DABw5RV/4dQBsI0pxWU5u11vjhcXrg8vfvEMVzETB+MzE4cOI/jvQ==}
 
-  '@form-guardian/react@1.0.2':
-    resolution: {integrity: sha512-OZKX69y6eACkNoGwT5ZldNxENdmwTwdfYCtKYr8J1N5LR0gWBKlSKqsq6+bL6oUwghsKn8Ip20dHQqBgBOrebA==}
+  '@form-guardian/react@1.0.3':
+    resolution: {integrity: sha512-evMP8zv8XAkE3JUdVWFb9SlHIYM+d6UCMmVf/GgGv64ztIr+UR/yRgT2ILcmBYAWRZ3kxXW66uq1wC87oJZceA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  '@form-guardian/shared-types@1.0.2':
-    resolution: {integrity: sha512-2Gy/4zHZf4PlZt5qbFKk1IuYdGHAOT8bhQIgMjpV+sDwL+MoYkt5HbMRR3UCrgAtVGGVyOemqagf6FbGABy7UQ==}
+  '@form-guardian/shared-types@1.0.3':
+    resolution: {integrity: sha512-GMHJAgrjNfDVi+685IiAPzrmRp+Im4dHNHbeY8QGmOL+o1IuAqTgA86mhcVr4LkvcwdwyssJpsRb3x0tm/uFGQ==}
 
   '@img/colour@1.0.0':
     resolution: {integrity: sha512-A5P/LfWGFSl6nsckYtjw9da+19jB8hkJ6ACTGcDfEJ0aE+l2n2El7dsVM7UVHZQ9s2lmYMWlrS21YLy2IR1LUw==}
@@ -5964,22 +5964,22 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
-  '@form-guardian/core@1.0.2':
+  '@form-guardian/core@1.0.3':
     dependencies:
-      '@form-guardian/shared-types': 1.0.2
+      '@form-guardian/shared-types': 1.0.3
 
-  '@form-guardian/dom@1.0.2':
+  '@form-guardian/dom@1.0.3':
     dependencies:
-      '@form-guardian/core': 1.0.2
-      '@form-guardian/shared-types': 1.0.2
+      '@form-guardian/core': 1.0.3
+      '@form-guardian/shared-types': 1.0.3
 
-  '@form-guardian/react@1.0.2(react@19.2.0)':
+  '@form-guardian/react@1.0.3(react@19.2.0)':
     dependencies:
-      '@form-guardian/dom': 1.0.2
-      '@form-guardian/shared-types': 1.0.2
+      '@form-guardian/dom': 1.0.3
+      '@form-guardian/shared-types': 1.0.3
       react: 19.2.0
 
-  '@form-guardian/shared-types@1.0.2': {}
+  '@form-guardian/shared-types@1.0.3': {}
 
   '@img/colour@1.0.0':
     optional: true

@@ -2,15 +2,21 @@
   "name": "react-example",
   "version": "1.0.0",
   "private": true,
+  "description": "React example demonstrating form-guardian with React Hook Form, Formik, and plain React forms",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tishkin/form-guardian-examples"
+  },
+  "author": "Tishkin Yuri <tishkinyura32@gmail.com>",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@form-guardian/dom": "^1.0.2",
-    "@form-guardian/react": "^1.0.2",
+    "@form-guardian/dom": "latest",
+    "@form-guardian/react": "latest",
     "formik": "^2.4.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

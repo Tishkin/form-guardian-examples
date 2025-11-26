@@ -2,14 +2,20 @@
   "name": "svelte-example",
   "version": "1.0.0",
   "private": true,
+  "description": "Svelte example demonstrating form-guardian with Svelte forms",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tishkin/form-guardian-examples"
+  },
+  "author": "Tishkin Yuri <tishkinyura32@gmail.com>",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@form-guardian/dom": "^1.0.2",
+    "@form-guardian/dom": "latest",
     "svelte": "^4.2.7"
   },
   "devDependencies": {

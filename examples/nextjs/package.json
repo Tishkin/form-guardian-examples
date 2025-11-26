@@ -2,6 +2,12 @@
   "name": "nextjs-example",
   "version": "1.0.0",
   "private": true,
+  "description": "Next.js example demonstrating form-guardian with SSR support",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tishkin/form-guardian-examples"
+  },
+  "author": "Tishkin Yuri <tishkinyura32@gmail.com>",
   "scripts": {
     "dev": "next dev -p 3005 --turbo",
     "dev:open": "node scripts/open-browser.js & next dev -p 3005 --turbo",
@@ -10,8 +16,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@form-guardian/dom": "^1.0.2",
-    "@form-guardian/react": "^1.0.2",
+    "@form-guardian/dom": "latest",
+    "@form-guardian/react": "latest",
     "next": "^16.0.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

@@ -28,7 +28,11 @@
     "examples",
     "form-autosave"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tishkin/form-guardian-examples"
+  },
+  "author": "Tishkin Yuri <tishkinyura32@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0",
