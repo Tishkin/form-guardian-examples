@@ -9,4 +9,5 @@ coverage
 .angular
 .idea
 .vscode
+.pnpm-store
 
