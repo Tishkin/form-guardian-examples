@@ -1,0 +1,18 @@
+{
+  "name": "vanilla-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@form-guardian/dom": "^1.0.2"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
+

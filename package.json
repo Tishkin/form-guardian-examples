@@ -1,0 +1,41 @@
+{
+  "name": "form-guardian-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Examples repository for form-guardian library",
+  "type": "module",
+  "workspaces": [
+    "examples/*"
+  ],
+  "scripts": {
+    "dev:react": "pnpm --filter react-example dev",
+    "dev:nextjs": "pnpm --filter nextjs-example dev:open",
+    "dev:vanilla": "pnpm --filter vanilla-example dev",
+    "dev:vue": "pnpm --filter vue-example dev",
+    "dev:svelte": "pnpm --filter svelte-example dev",
+    "dev:angular": "pnpm --filter angular-example dev",
+    "dev:all": "pnpm -r --filter './examples/*' --parallel dev",
+    "build:react": "pnpm --filter react-example build",
+    "build:nextjs": "pnpm --filter nextjs-example build",
+    "build:vanilla": "pnpm --filter vanilla-example build",
+    "build:vue": "pnpm --filter vue-example build",
+    "build:svelte": "pnpm --filter svelte-example build",
+    "build:angular": "pnpm --filter angular-example build",
+    "build:all": "pnpm -r --filter './examples/*' build"
+  },
+  "keywords": [
+    "form-guardian",
+    "examples",
+    "form-autosave"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
+

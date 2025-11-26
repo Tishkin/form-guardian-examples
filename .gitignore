@@ -1,0 +1,12 @@
+node_modules
+dist
+.next
+.vite
+.cache
+*.log
+.DS_Store
+coverage
+.angular
+.idea
+.vscode
+
